@@ -1,7 +1,9 @@
 function Header() {
     return (
         <>
-            いえーーーい
+        <header>Headerです</header>
         </>
     )
 }
+
+export default Header;
