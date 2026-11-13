@@ -1,0 +1,49 @@
+/* フッター全体の背景を黒にする */
+.footer {
+  width: 100%;
+  background-color: #09090b;
+  color: #fafafa;
+  border-top: 1px solid #27272a;
+  box-sizing: border-box;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+  color: #fafafa;
+}
+
+.footer-logo {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+  background-color: #ffffff;
+  padding: 4px;
+  border-radius: 6px;
+}
+
+/* NavigationMenu のリンク文字を白系にして、アンダーラインを出す */
+.footer-right a {
+  color: #e4e4e7 !important;
+  background-color: transparent !important;
+  text-decoration: underline !important; /* ← 常に下線を出す。ホバー時だけにする場合はここを消して下の :hover だけ残す */
+  text-underline-offset: 4px;
+}
+
+.footer-right a:hover {
+  color: #ffffff !important;
+  background-color: #27272a !important; /* ホバー時の背景色 */
+  text-decoration: underline !important;
+}
