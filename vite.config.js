@@ -9,6 +9,7 @@ import { server } from "shadcn/mcp"
 export default defineConfig({
   plugins: [
     react(),
+    tailwindcss(),
     babel({ presets: [reactCompilerPreset()] })
   ],
   resolve: {
