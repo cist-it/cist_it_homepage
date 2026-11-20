@@ -16,7 +16,7 @@ function Footer() {
             className="flex items-center gap-3 transition-opacity hover:opacity-80"
           >
             <img
-              src="/cist_icon.svg"
+              src="/logo.svg"
               alt="CIST Logo"
               className="h-10 w-auto rounded-md bg-white p-1 object-contain"
             />
