@@ -1,0 +1,35 @@
+{
+    "currentStudents" : [
+        {
+            "grade" : 0,
+            "name" : "aaa",
+            "department": "情報システム工学科",
+            "icon" : "/member_icons/aaa.jpg",
+            "description" : "よろしく0"
+        },
+        {
+            "grade" : 3,
+            "name" : "aaa",
+            "department": "電子光工学科",
+            "icon" : "/member_icons/aaa.jpg",
+            "description" : "よろしくねええええええええええええええええええええええええええええええええええ3"
+        },
+        {
+            "grade" : 2,
+            "name" : "aaa",
+            "department": "応用化学生物学科",
+            "icon" : "/member_icons/aaa.jpg",
+            "description" : "よろしくね2"
+        },
+        {
+            "grade" : 2,
+            "name" : "aaa",
+            "department": null,
+            "icon" : "/member_icons/aaa.jpg",
+            "description" : "よろしくね2"
+        }
+    ],
+    "graduates" : [
+
+    ]
+}
