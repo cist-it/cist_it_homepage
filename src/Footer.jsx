@@ -1,4 +1,3 @@
-import './Footer.css'
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -6,66 +5,59 @@ import {
   NavigationMenuList,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
-import "./index.css"
 
 function Footer() {
   return (
     <footer className="w-full border-t border-zinc-800 bg-zinc-950 text-zinc-50">
-      <div className="mx-auto max-w-6xl px-4 py-8 md:px-8 md:py-10">
-        
-        {/* スマホ: 縦並び(flex-col) / PC(md以上): 横並び(md:flex-row) */}
-        <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
-          
-          {/* ロゴ（スマホでは上、PCでは左） */}
+      <div className="mx-auto max-w-6xl px-4 py-8 sm:px-8 sm:py-10">
+        <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
           <a
             href="/"
             className="flex items-center gap-3 transition-opacity hover:opacity-80"
           >
             <img
-              src="/cist_icon.png"
+              src="/cist_icon.svg"
               alt="CIST Logo"
               className="h-10 w-auto rounded-md bg-white p-1 object-contain"
             />
-            <span className="text-lg font-bold tracking-tight">CIST</span>
+            <span className="text-lg font-bold tracking-tight">CIST IT COMMUNITY</span>
           </a>
 
-          {/* リンク一覧（スマホでは縦並びで押しやすく、PCでは横並び） */}
-          <nav className="w-full md:w-auto">
-            <ul className="flex flex-col items-center gap-3 md:flex-row md:gap-8">
-              <li>
-                <a
+          <NavigationMenu>
+            <NavigationMenuList className="flex-col gap-2 sm:flex-row sm:gap-4">
+              <NavigationMenuItem>
+                <NavigationMenuLink
                   href="/members"
-                  className="inline-block py-1 text-sm font-medium text-zinc-300 underline underline-offset-4 transition-colors hover:text-white"
+                  className={`${navigationMenuTriggerStyle()} bg-transparent text-zinc-300 underline underline-offset-4 hover:bg-zinc-800 hover:text-white focus:bg-zinc-800 focus:text-white`}
                 >
-                  メンバー紹介
-                </a>
-              </li>
-              <li>
-                <a
+                  活動内容
+                </NavigationMenuLink>
+              </NavigationMenuItem>
+
+              <NavigationMenuItem>
+                <NavigationMenuLink
                   href="/clubs"
-                  className="inline-block py-1 text-sm font-medium text-zinc-300 underline underline-offset-4 transition-colors hover:text-white"
+                  className={`${navigationMenuTriggerStyle()} bg-transparent text-zinc-300 underline underline-offset-4 hover:bg-zinc-800 hover:text-white focus:bg-zinc-800 focus:text-white`}
                 >
-                  サークル紹介
-                </a>
-              </li>
-              <li>
-                <a
+                  メンバー
+                </NavigationMenuLink>
+              </NavigationMenuItem>
+
+              <NavigationMenuItem>
+                <NavigationMenuLink
                   href="/projects"
-                  className="inline-block py-1 text-sm font-medium text-zinc-300 underline underline-offset-4 transition-colors hover:text-white"
+                  className={`${navigationMenuTriggerStyle()} bg-transparent text-zinc-300 underline underline-offset-4 hover:bg-zinc-800 hover:text-white focus:bg-zinc-800 focus:text-white`}
                 >
-                  プロジェクト一覧
-                </a>
-              </li>
-            </ul>
-          </nav>
-
+                  プロジェクト
+                </NavigationMenuLink>
+              </NavigationMenuItem>
+            </NavigationMenuList>
+          </NavigationMenu>
         </div>
 
-        {/* 下部：区切り線とコピーライト */}
         <div className="mt-8 border-t border-zinc-800 pt-6 text-center text-xs text-zinc-500">
-          © {new Date().getFullYear()} CIST. All rights reserved.
+          © 2026 CIST IT COMMUNITY. All rights reserved.
         </div>
-
       </div>
     </footer>
   )
