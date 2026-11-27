@@ -1,6 +1,7 @@
 "use client"
 
 import * as React from "react"
+import { Link } from "react-router-dom";
 import "./index.css"
 
 import {
@@ -37,13 +38,13 @@ function Menu() {
 
         <NavigationMenuItem>
           <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-            <a href="">メンバー</a>
+            <Link to="/member">メンバー</Link>
           </NavigationMenuLink>
         </NavigationMenuItem>
 
         <NavigationMenuItem>
           <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-            <a href="">プロジェクト</a>
+            <Link to="/project">プロジェクト</Link>
           </NavigationMenuLink>
         </NavigationMenuItem>
       </NavigationMenuList>
