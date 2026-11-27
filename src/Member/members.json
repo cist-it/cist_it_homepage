@@ -1,0 +1,101 @@
+{
+  "undergraduates": [
+    {
+      "name": "山田 太郎",
+      "grade": 4,
+      "department": "情報システム工学科",
+      "icon": "/member_icons/aaa.jpg",
+      "description": "フロントエンド担当です。ReactとTypeScriptを触っています。休日はカフェ巡りをしています。"
+    },
+    {
+      "name": "佐藤 花子",
+      "grade": 4,
+      "department": "電子光工学科",
+      "icon": "/member_icons/aaa.jpg",
+      "description": "センサーや回路設計に関心があります。ハードとソフトの連携を試すのが好きです。"
+    },
+    {
+      "name": "田中 健太",
+      "grade": 3,
+      "department": "情報システム工学科",
+      "icon": "/member_icons/aaa.jpg",
+      "description": "Webアプリ開発に取り組んでいます。最近はTailwind CSSでのレイアウト調整にハマっています。"
+    },
+    {
+      "name": "伊藤 美咲",
+      "grade": 3,
+      "department": "応用化学生物学科",
+      "icon": "/member_icons/aaa.jpg",
+      "description": "企画や広報まわりを担当しています。実験とサークル活動の両立を楽しんでいます。"
+    },
+    {
+      "name": "渡辺 翔",
+      "grade": 2,
+      "department": "電子光工学科",
+      "icon": "/member_icons/aaa.jpg",
+      "description": "入部したばかりでJavaScriptとReactを勉強中です。先輩たちに教わりながら実装を進めています。"
+    },
+    {
+      "name": "中村 結衣",
+      "grade": 1,
+      "department": null,
+      "icon": "/member_icons/aaa.jpg",
+      "description": "1年生です。プログラミングもサークル活動も初めてですが、いろいろなことに挑戦したいです。"
+    }
+  ],
+  "masters": [
+    
+  ],
+  "graduates": [
+    {
+      "name": "斎藤 誠",
+      "graduationYear": 2025,
+      "department": "情報システム工学科",
+      "icon": "/member_icons/aaa.jpg",
+      "description": "昨年度卒業のOBです。現在はWeb系企業でフロントエンドエンジニアとして働いています。"
+    },
+    {
+      "name": "松本 沙耶",
+      "graduationYear": 2025,
+      "department": "電子光工学科",
+      "icon": "/member_icons/aaa.jpg",
+      "description": "昨年度卒業のOGです。電機・システム関連のエンジニアとして働いています。"
+    },
+    {
+      "name": "井上 陸",
+      "graduationYear": 2024,
+      "department": "情報システム工学科",
+      "icon": "/member_icons/aaa.jpg",
+      "description": "元代表です。社会人になってからもサークルの活動やイベントを応援しています。"
+    },
+    {
+      "name": "木村 遥",
+      "graduationYear": 2024,
+      "department": "応用化学生物学科",
+      "icon": "/member_icons/aaa.jpg",
+      "description": "在学中は広報やイベント運営を担当していました。後輩たちの活躍を応援しています。"
+    },
+    {
+      "name": "林 康介",
+      "graduationYear": 2023,
+      "department": "電子光工学科",
+      "icon": "/member_icons/aaa.jpg",
+      "description": "インフラ・システム領域で働いています。後輩たちの新しい取り組みをいつも楽しみにしています。"
+    },
+    {
+      "name": "清水 麻衣",
+      "graduationYear": 2023,
+      "department": "応用化学生物学科",
+      "icon": "/member_icons/aaa.jpg",
+      "description": "社会人になってからもサークルのつながりを大切にしています。ぜひ気軽に話しかけてください。"
+    }
+  ],
+  "advisors": [
+    {
+      "name": "佐々木 先生",
+      "department": "情報システム工学科",
+      "icon": "/member_icons/aaa.jpg",
+      "description": "顧問教員です。活動場所の手配や学内手続きなど、運営面でいつも助けていただいています。"
+    }
+  ]
+}
